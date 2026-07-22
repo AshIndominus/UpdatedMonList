@@ -459,6 +459,30 @@
     "tags": []
   },
   {
+    "id": "0025-detective",
+    "dex": 25,
+    "displayName": "Detective Pikachu",
+    "baseSpecies": "Pikachu",
+    "formCode": "detective",
+    "formType": "alternative",
+    "types": ["Electric"],
+    "canBeShiny": true,
+    "enabled": true,
+    "tags": ["starter"]
+  },
+  {
+    "id": "0025-peakychu",
+    "dex": 25,
+    "displayName": "Peakychu",
+    "baseSpecies": "Pikachu",
+    "formCode": "peakychu",
+    "formType": "alternative",
+    "types": ["Electric"],
+    "canBeShiny": true,
+    "enabled": true,
+    "tags": []
+  },
+  {
     "id": "0026-base",
     "dex": 26,
     "displayName": "Raichu",
@@ -487,7 +511,7 @@
     "dex": 26,
     "displayName": "Mega Raichu X",
     "baseSpecies": "Raichu",
-    "formCode": "mega",
+    "formCode": "mega-x",
     "formType": "mega",
     "types": ["Electric"],
     "canBeShiny": true,
@@ -499,7 +523,7 @@
     "dex": 26,
     "displayName": "Mega Raichu Y",
     "baseSpecies": "Raichu",
-    "formCode": "mega",
+    "formCode": "mega-y",
     "formType": "mega",
     "types": ["Electric"],
     "canBeShiny": true,
@@ -1683,6 +1707,18 @@
     "tags": []
   },
   {
+    "id": "0095-crystal",
+    "dex": 95,
+    "displayName": "Crystal Onix",
+    "baseSpecies": "Onix",
+    "formCode": "crystal",
+    "formType": "alternative",
+    "types": ["Rock", "Ground"],
+    "canBeShiny": true,
+    "enabled": true,
+    "tags": []
+  },  
+  {
     "id": "0096-base",
     "dex": 96,
     "displayName": "Drowzee",
@@ -2469,6 +2505,18 @@
     "baseSpecies": "Snorlax",
     "formCode": "gmax",
     "formType": "gmax",
+    "types": ["Normal"],
+    "canBeShiny": true,
+    "enabled": true,
+    "tags": []
+  },
+  {
+    "id": "0143-moss",
+    "dex": 143,
+    "displayName": "Mosslax",
+    "baseSpecies": "Snorlax",
+    "formCode": "moss",
+    "formType": "alternative",
     "types": ["Normal"],
     "canBeShiny": true,
     "enabled": true,
@@ -3399,6 +3447,18 @@
     "tags": []
   },
   {
+    "id": "0208-crystal",
+    "dex": 208,
+    "displayName": "Crystal Steelix",
+    "baseSpecies": "Steelix",
+    "formCode": "crystal",
+    "formType": "alternative",
+    "types": ["Steel", "Ground"],
+    "canBeShiny": true,
+    "enabled": true,
+    "tags": []
+  },
+  {
     "id": "0208-mega",
     "dex": 208,
     "displayName": "Mega Steelix",
@@ -3410,6 +3470,18 @@
     "enabled": true,
     "tags": []
   },
+  {
+    "id": "0208-mega",
+    "dex": 208,
+    "displayName": "Mega Crystal Steelix",
+    "baseSpecies": "Steelix",
+    "formCode": "mega-c",
+    "formType": "mega",
+    "types": ["Steel", "Ground"],
+    "canBeShiny": true,
+    "enabled": true,
+    "tags": []
+  }, 
   {
     "id": "0209-base",
     "dex": 209,
@@ -3998,6 +4070,18 @@
     "enabled": true,
     "tags": ["legendary"]
   },
+  {
+    "id": "0249-shadow",
+    "dex": 249,
+    "displayName": "Shadow Lugia",
+    "baseSpecies": "Lugia",
+    "formCode": "shadow",
+    "formType": "shadow",
+    "types": ["Psychic", "Flying"],
+    "canBeShiny": true,
+    "enabled": true,
+    "tags": ["legendary"]
+  }, 
   {
     "id": "0250-base",
     "dex": 250,
@@ -5551,7 +5635,7 @@
     "dex": 359,
     "displayName": "Mega Absol Z",
     "baseSpecies": "Absol",
-    "formCode": "mega",
+    "formCode": "mega-z",
     "formType": "mega",
     "types": ["Dark", "Ghost"],
     "canBeShiny": true,
@@ -6847,7 +6931,7 @@
     "dex": 445,
     "displayName": "Mega Garchomp Z",
     "baseSpecies": "Garchomp",
-    "formCode": "mega",
+    "formCode": "mega-z",
     "formType": "mega",
     "types": ["Dragon"],
     "canBeShiny": true,
@@ -6907,7 +6991,7 @@
     "dex": 448,
     "displayName": "Mega Lucario Z",
     "baseSpecies": "Lucario",
-    "formCode": "mega",
+    "formCode": "mega-z",
     "formType": "mega",
     "types": ["Fighting", "Steel"],
     "canBeShiny": true,
@@ -7378,6 +7462,18 @@
     "formCode": "mow",
     "formType": "alternate",
     "types": ["Electric", "Grass"],
+    "canBeShiny": true,
+    "enabled": true,
+    "tags": []
+  },
+  {
+    "id": "0479-stereo",
+    "dex": 479,
+    "displayName": "Rotom Stereo",
+    "baseSpecies": "Rotom",
+    "formCode": "stereo",
+    "formType": "alternate",
+    "types": ["Electric", "Normal"],
     "canBeShiny": true,
     "enabled": true,
     "tags": []
@@ -13066,7 +13162,7 @@
     "formCode": "base",
     "formType": "base",
     "types": ["Psychic", "Steel"],
-    "canBeShiny": false,
+    "canBeShiny": true,
     "enabled": true,
     "tags": ["legendary"]
   },
@@ -13078,7 +13174,7 @@
     "formCode": "base",
     "formType": "base",
     "types": ["Psychic", "Ghost"],
-    "canBeShiny": false,
+    "canBeShiny": true,
     "enabled": true,
     "tags": ["legendary"]
   },
