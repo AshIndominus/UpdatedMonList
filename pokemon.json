@@ -2655,6 +2655,18 @@
     "tags": ["legendary"]
   },
   {
+    "id": "0150-base",
+    "dex": 150,
+    "displayName": "Armoured Mewtwo",
+    "baseSpecies": "Mewtwo",
+    "formCode": "Armoured",
+    "formType": "alternate",
+    "types": ["Psychic"],
+    "canBeShiny": true,
+    "enabled": true,
+    "tags": ["legendary"]
+  },
+  {
     "id": "0150-mega-x",
     "dex": 150,
     "displayName": "Mega Mewtwo X",
